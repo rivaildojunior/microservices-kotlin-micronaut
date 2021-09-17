@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: boletoService
+  server:
+    port: 8083
+
+
+mongodb:
+  uri: 'mongodb://localhost:27017/exemplo'

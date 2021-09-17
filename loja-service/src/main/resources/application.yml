@@ -1,0 +1,22 @@
+micronaut:
+  application:
+    name: loja
+  server:
+    port: 8082
+
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+
+
+kafka:
+  bootstrap:
+    servers: localhost:9092
+
+#docker run -p 8500:8500 consul
+
+
+
+
